@@ -3,7 +3,7 @@
 echo program start
 
 echo compile main.cpp to generate executables
-g++ -o RUN -std=c++17 main.cpp
+g++ main.cpp -o RUN -std=c++17 
 
 echo run the file
 ./RUN
